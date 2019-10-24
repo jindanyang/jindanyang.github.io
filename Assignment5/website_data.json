@@ -1,0 +1,84 @@
+{ 
+"data"     :     [
+  {
+    "Name": "UrbanOutfitters",
+    "Founded Year": 1970,
+    "Headquarters": "Philadelphia, Pennsylvania, U.S.",
+    "Founder": "Richard Hayne\nJudy Wicks\nScott Belair",
+    "Type": "Public limited company",
+    "Products": "Fashion&Apparel,Beauty,Shoes,Accessories,Intimates,Music"
+  },
+  {
+    "Name": "Mango",
+    "Founded Year": 1995,
+    "Headquarters": "Palau-solità i Plegamans, Catalonia, Spain",
+    "Founder": "Isak Andic and Nahman Andic",
+    "Type": "Public limited company",
+    "Products": "Fashion&Apparel,Accessories"
+  },
+  {
+    "Name": "Nordstorm",
+    "Founded Year": 1901,
+    "Headquarters": "Seattle, Washington, U.S.",
+    "Founder": "John W. Nordstrom\nCarl F. Wallin",
+    "Type": "Public limited company",
+    "Products": "Fashion&Apparel,Beauty,Home decor ,Swimwear,Shoes,Accessories,Intimates"
+  },
+  {
+    "Name": "Net-A-Porter",
+    "Founded Year": 2000,
+    "Headquarters": "Chelsea, London",
+    "Founder": "Natalie Massenet",
+    "Type": "S.p.A.",
+    "Products": "Fashion&Apparel,Beauty,Accessories,Shoes"
+  },
+  {
+    "Name": "ZARA",
+    "Founded Year": 1974,
+    "Headquarters": "Arteixo (A Coruña), Spain",
+    "Founder": "Amancio Ortega\nRosalía Mera",
+    "Type": "S.A.",
+    "Products": "Fashion&Apparel,Accessories,Shoes"
+  },
+  {
+    "Name": "Pixie Market",
+    "Founded Year": 2006,
+    "Headquarters": "New York City, New York, US",
+    "Founder": "Magda Pietrobelli",
+    "Type": "Private",
+    "Products": "Fashion&Apparel,Accessories"
+  },
+  {
+    "Name": "Free People",
+    "Founded Year": 1984,
+    "Headquarters": "Philadelphia, Pennsylvania",
+    "Founder": "Dick Hayne",
+    "Type": "Subsidiary",
+    "Products": "Fashion&Apparel,Accessories,Shoes,Swimwear,Intimates"
+  },
+  {
+    "Name": "Uniqlo",
+    "Founded Year": 1949,
+    "Headquarters": "Tokyo, Japan",
+    "Founder": "Tadashi Yanai",
+    "Type": "Subsidiary",
+    "Products": "Fashion&Apparel,Accessories,Intimates"
+  },
+  {
+    "Name": "ASOS",
+    "Founded Year": 2000,
+    "Headquarters": "Headquarters\tLondon, England, United Kingdom",
+    "Founder": "Nick Robertson,[4] Andrew Regan, Quentin Griffiths",
+    "Type": "Public limited company",
+    "Products": "Fashion&Apparel,Beauty,Accessories"
+  },
+  {
+    "Name": "Marks & Spencer",
+    "Founded Year": 1884,
+    "Headquarters": "London, United Kingdom",
+    "Founder": "Michael Marks\nThomas Spencer",
+    "Type": "Public limited company",
+    "Products": "Fashion&Apparel,Food,Home decor"
+  }
+]
+}
