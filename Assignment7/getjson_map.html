@@ -40,7 +40,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
           <li><a href="index.html">Home page</a></li>
-          <li class="active"><a href="test_getjson.html">Airtable GetJSON</a></li>
+          <li class="active"><a href="getjson_map.html">Airtable GetJSON</a></li>
         </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -67,7 +67,7 @@
                 <table id="table2" width="100%" class="table table-bordered"></table>
           </div><!-- table responsive -->
           <div id="chart"></div>
-          <h1>Leaflet Example</h1>
+          <h1>Map</h1>
           <div class="row">
              <div class="col-xs-12 col-sm-12 col-md-12">
                <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Districts</button><br>
@@ -77,16 +77,16 @@
         </div><!-- end col -->
     </div><!--end row -->
   </div><!-- container -->
+  
   <script>
     var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
 
     var map = L.map('map')
           .addLayer(mapboxTiles)
           .setView([22.287111, 114.191667], 13);
-
-
+          
     var items = [];
-    var airtable_read_endpoint = "https://api.airtable.com/v0/appKIU0zkdHt3AVTL/Venues?api_key=keycj6dRwXwYLEjiv";
+    var airtable_read_endpoint = "https://api.airtable.com/v0/appY37jD8fuu3HZvD/Stores%20Map?api_key=keye05BAfKTbqK2DZ";
 
     var data = [];
     $.getJSON(airtable_read_endpoint, function(result) {
@@ -117,7 +117,7 @@
 
   </script>
 
-  <script src='scriptlib2.js'></script>
+  <script src='map.js'></script>
 </body>
 </html>
 </html>
