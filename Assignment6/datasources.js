@@ -23,15 +23,15 @@ $(document).ready(function(){
         $.getJSON(airtable_read_endpoint, function(result) {
                $.each(result.records, function(key,value) {
                    items = [];
-                       items.push(value.fields.name);
-                       items.push(value.fields.website_url);
-                       items.push(value.fields.logos);
-                       items.push(value.fields.founded_year);
-                       items.push(value.fields.headquarters);
-                       items.push(value.fields.founder);
-                       items.push(value.fields.type);
-                       items.push(value.fields.products);
-                       items.push(value.fields.rating);
+                       items.push(value.fields.Name);
+                       items.push(value.fields.Website_URL);
+                       items.push(value.fields.Logos);
+                       items.push(value.fields.Founded_Year);
+                       items.push(value.fields.Headquarters);
+                       items.push(value.fields.Founder);
+                       items.push(value.fields.Type);
+                       items.push(value.fields.Products);
+                       items.push(value.fields.Rating);
                        dataSet.push(items);
                        console.log(items);
                 }); // end .each
