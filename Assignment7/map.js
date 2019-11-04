@@ -84,9 +84,9 @@ $(document).ready(function(){
                data: dataSet,
                retrieve: true,
                columns: [
-                   { title: "Physical Store in China",
-                     defaultContent:""},
                    { title: "Name",
+                     defaultContent:""},
+                   { title: "Amount",
                        defaultContent:"" },
                ]
            } );
