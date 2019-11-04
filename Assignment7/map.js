@@ -74,7 +74,6 @@ $(document).ready(function(){
              $.each(result.records, function(key,value) {
                  items = [];
                      items.push(value.fields.Physical_Store_in_China);
-                     items.push(value.fields.Attachements);
                      items.push(value.fields.Amount);
                      dataSet.push(items);
                      console.log(items);
