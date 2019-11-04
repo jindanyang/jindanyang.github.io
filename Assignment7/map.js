@@ -86,7 +86,7 @@ $(document).ready(function(){
                columns: [
                    { title: "Physical Store in China",
                      defaultContent:""},
-                   { title: "Amount",
+                   { title: "Name",
                        defaultContent:"" },
                ]
            } );
