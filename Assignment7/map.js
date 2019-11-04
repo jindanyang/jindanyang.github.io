@@ -73,7 +73,7 @@ $(document).ready(function(){
       $.getJSON(airtable_read_endpoint, function(result) {
              $.each(result.records, function(key,value) {
                  items = [];
-                     items.push(value.fields.Physical_Store_in_China);
+                     items.push(value.fields.Name);
                      items.push(value.fields.Amount);
                      dataSet.push(items);
                      console.log(items);
