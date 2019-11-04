@@ -18,7 +18,7 @@ $(document).ready(function(){
     $("button#get_data").click(function() {
         var items = [];
         var i = 0;
-        var airtable_read_endpoint = "https://api.airtable.com/v0/appY37jD8fuu3HZvD/Top%2010%20Liked%20Ecommerce%20Fashion%20Websites?api_key=keyoKHitryR97KQzB";
+        var airtable_read_endpoint = "https://api.airtable.com/v0/appY37jD8fuu3HZvD/Top%2010%20Liked%20Ecommerce%20Fashion%20Websites?api_key=keye05BAfKTbqK2DZ";
         var dataSet = [];
         $.getJSON(airtable_read_endpoint, function(result) {
                $.each(result.records, function(key,value) {
