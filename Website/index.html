@@ -22,6 +22,23 @@
         rel="stylesheet" type="text/css">
         <!-- Custom styles for this template -->
         <link href="css/agency.min.css" rel="stylesheet">
+        <!-- Owl Carousel -->
+        <link href="owl.carousel/owl.carousel.css" rel="stylesheet">
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+        <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+        <!-- Data Table -->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet" type="text/css">
+        <script src="js/table.js"></script>
+
+
+
     </head>
     
     <body id="page-top">
@@ -63,52 +80,97 @@
             <div class="container">
                 <div class="intro-text">
                     <div class="intro-lead-in">Welcome To Los Angeles!</div>
-                    <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+                    <div class="intro-heading text-uppercase">Welcome to Los Angeles</div>
                     <a class="venobox play-btn mb-4" href="https://youtu.be/WCJ2LSYLbMI"
                     id="home_page_video" data-vbtype="video" data-autoplay="true"></a>
-                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Explore Me More</a>
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Explore the city</a>
                 </div>
             </div>
         </header>
-        <!-- Services -->
+        <!-- YouTube Video -->
+        <section class="page-section" id="services">
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/WCJ2LSYLbMI"
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery -->
+        <div class="col-lg-12 text-center">
+            <h1 class="section-heading text-uppercase">Gallery</h1>
+            <h6 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h6>
+        </div>
+        <div id="owl-demo">
+            <div class="item">
+                <img src="img/gallery/1.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/2.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/3.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/4.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/5.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/6.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/7.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/8.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/9.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/10.jpeg" alt="LA Image">
+            </div>
+            <div class="item">
+                <img src="img/gallery/11.jpeg" alt="LA Image">
+            </div>
+        </div>
+        <!-- Experience -->
+        <div class="section"></div>
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://youtu.be/WCJ2LSYLbMI"
-                            allowfullscreen=""></iframe>
-                        </div>
+                    <div class="col-lg-12 text-center">
+                        <h1 class="section-heading text-uppercase">Experience</h1>
+                        <h6 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h6>
                     </div>
                 </div>
             </div>
         </div>
-        <section class="page-section" id="services">
+        <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Gallery</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
                 </div>
             </div>
-        </section>
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Experience</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12"></div>
-                </div>
-            </div>
-        </section>
+        </div>
+        <!-- Restaurants -->
         <div class="col-lg-12 text-center">
             <section class="page-section" id="services">
                 <div class="container">
@@ -118,15 +180,26 @@
                             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="table-responsive">
-                            <table id="table1" width="100%" class="table table-bordered"></table>
-                        </div>
-                    </div>
+                          <div class="table-responsive">
+                          <table id="table1" width="100%" class="display">
+                      
+                            <tfoot>
+                              <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Phone</th>
+                                <th>Address</th>
+                                <th>District</th>
+                                <th>Price</th>
+                              </tr>
+                          </tfoot>
+                      
+                          </table>
+                      
                 </div>
             </section>
         </div>
-        <!-- Portfolio Grid -->
+        <!-- Activities -->
         <section class="bg-light page-section" id="portfolio">
             <div class="container">
                 <div class="row">
@@ -143,7 +216,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/Activities/1.jpg" alt="">
+            <img class="img-fluid" src="img/activities/1.jpg" alt="">
           </a>
                         <div class="portfolio-caption">
                             <h4>Skip the Line Universal Studios Hollywood Express Ticket</h4>
@@ -157,7 +230,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/Activities/2.jpg" alt="">
+            <img class="img-fluid" src="img/activities/2.jpg" alt="">
           </a>
                         <div class="portfolio-caption">
                             <h4>Los Angeles 2.5-Hour Tragic History Multimedia Bus Tour</h4>
@@ -192,7 +265,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/Activities/4.jpg" alt="">
+            <img class="img-fluid" src="img/activities/4.jpg" alt="">
           </a>
                         <div class="portfolio-caption">
                             <h4>Hollywood and Celebrity Homes Tour by Bus
@@ -208,7 +281,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/Activities/5.jpg" alt="">
+            <img class="img-fluid" src="img/activities/5.jpg" alt="">
           </a>
                         <div class="portfolio-caption">
                             <h4>Small Group Bicycle Tour of Santa Monica and Venice Beach</h4>
@@ -222,7 +295,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/Activities/6.jpg" alt="">
+            <img class="img-fluid" src="img/activities/6.jpg" alt="">
           </a>
                         <div class="portfolio-caption">
                             <h4>Movie Star Homes and Warner Bros Studio Tour
@@ -617,7 +690,10 @@
         <script src="js/contact_me.js"></script>
         <!-- Custom scripts for this template -->
         <script src="js/agency.min.js"></script>
-        <script src="js/table.js"></script>
+        <!-- Javascript for map -->
+        <script src="js/map.js"></script>
+        <!-- Javascript for gallery -->
+        <script src="owl.carousel/owl.carousel.js"></script>
     </body>
 
 </html>
