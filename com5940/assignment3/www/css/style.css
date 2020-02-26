@@ -1,0 +1,58 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f7f8f4;
+  color: white;
+  text-align: right;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+#myBtn {
+  display: inline-block !important;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 99;
+  font-size: 22px !important;
+  border: none;
+  outline: none;
+  background-color: #f3bb41;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+.thumbnail {
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+}
+
+.caption {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#album {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.modal-body p {
+  margin: 20px 0px 0px 0px;
+}
+
+.modal-body {
+  padding:40px;
+}
